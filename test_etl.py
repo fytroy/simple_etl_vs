@@ -1,6 +1,7 @@
 import tempfile
 import os
-from simple_etl import extract, transform
+import extract
+import transform
 
 
 def test_extract_and_transform():
